@@ -45,20 +45,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:style="@style/Widget.Material3.Button.OutlinedButton"
-            android:id="@+id/btnBooking"
-            android:layout_width="100dp"
-            android:layout_height="60dp"
-            android:text="Book here"
-            android:visibility="visible"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/titleTv"
-            tools:layout_editor_absoluteY="2dp">
-
-
-        </Button>
+<!--        <Button-->
+<!--            android:style="@style/Widget.Material3.Button.OutlinedButton"-->
+<!--            android:id="@+id/btnBooking"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:text="Book here"-->
+<!--            android:visibility="visible"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="1.0"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/titleTv"-->
+<!--            tools:layout_editor_absoluteY="2dp"-->
+<!--            tools:ignore="MissingConstraints" />-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
